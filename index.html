@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Preston Head III — Founder, operator, and entrepreneur building at the intersection of cannabis, hemp, and emerging technology." />
+  <meta property="og:title" content="Preston Head III" />
+  <meta property="og:description" content="Founder, operator, and entrepreneur building at the intersection of cannabis, hemp, and emerging technology." />
+  <meta property="og:type" content="website" />
+  <title>Preston Head III</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #b2c8d2;
+      --bg-subtle: #bdd1da;
+      --text: #1e2e38;
+      --text-muted: #4a6070;
+      --cream: #0d1e28;
+      --gold: #b8952a;
+      --gold-light: #d4ac3a;
+      --gold-dim: rgba(184, 149, 42, 0.2);
+      --blue: #5a9dbf;
+      --blue-dim: rgba(90, 157, 191, 0.25);
+      --divider: rgba(90, 157, 191, 0.2);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Lora', Georgia, serif;
+      font-size: 17px;
+      line-height: 1.85;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 72px 32px 120px;
+    }
+
+    /* Nav */
+    nav {
+      display: flex;
+      gap: 36px;
+      margin-bottom: 100px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
+    }
+
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    nav a:hover { color: var(--gold-light); }
+
+    /* Name block */
+    .name-block {
+      margin-bottom: 64px;
+    }
+
+    .name-rule-top {
+      width: 40px;
+      height: 1px;
+      background: linear-gradient(to right, var(--gold), var(--blue));
+      margin-bottom: 28px;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 44px;
+      font-weight: 400;
+      letter-spacing: 0.12em;
+      color: var(--cream);
+      line-height: 1.15;
+      margin-bottom: 0;
+    }
+
+    /* Body text */
+    .bio {
+      color: var(--text);
+      margin-bottom: 80px;
+      border-left: 1px solid var(--blue-dim);
+      padding-left: 28px;
+    }
+
+    .bio p {
+      margin-bottom: 1.4em;
+    }
+
+    .bio p:last-child { margin-bottom: 0; }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(90, 157, 191, 0.3);
+      padding-bottom: 1px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    a:hover {
+      color: var(--cream);
+      border-bottom-color: var(--gold);
+    }
+
+    /* Divider */
+    hr {
+      border: none;
+      border-top: 1px solid var(--divider);
+      margin: 56px 0;
+    }
+
+    /* Section heading */
+    h2 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+    }
+
+    /* Contact */
+    .contact {
+      color: var(--text-muted);
+      font-family: 'Raleway', sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      margin-bottom: 32px;
+    }
+
+    .contact a {
+      color: var(--text);
+      border-bottom-color: transparent;
+    }
+
+    .contact a:hover {
+      color: var(--cream);
+    }
+
+    /* Social links */
+    .social {
+      display: flex;
+      gap: 28px;
+      flex-wrap: wrap;
+    }
+
+    .social a {
+      font-family: 'Raleway', sans-serif;
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      border-bottom: none;
+      padding-bottom: 0;
+      transition: color 0.2s;
+    }
+
+    .social a:hover { color: var(--gold-light); }
+
+    @media (max-width: 480px) {
+      body { padding: 48px 20px 80px; }
+      nav { margin-bottom: 72px; }
+      h1 { font-size: 36px; }
+      .bio { padding-left: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <div class="name-block">
+      <div class="name-rule-top"></div>
+      <h1>Preston Head III</h1>
+    </div>
+
+    <div class="bio">
+      <p>Welcome to my corner of the internet.</p>
+      <p>
+        I'm the Founder and CEO of <a href="https://www.seagateco.com/" target="_blank" rel="noopener">Sea Gate Corporation</a>,
+        a business development and sales firm built for the regulated cannabis and hemp industries.
+        I'm also building an AI-forward technology platform designed to bring stronger infrastructure,
+        smarter tools, and greater efficiency to cannabis commerce.
+      </p>
+      <p>
+        My work sits at the intersection of sales, strategy, partnerships, and execution. Through
+        Sea Gate, I've helped leading operators including <a href="https://leef.com/" target="_blank" rel="noopener">LEEF Labs</a>
+        and California Organics generate several million dollars in revenue through wholesale sales,
+        strategic account development, and market expansion.
+      </p>
+      <p>
+        Earlier in my career, I served as Director of Business Development at Double Barrel, a
+        cannabis vape brand backed by the founding partners of Dosist, and was one of the first
+        sales hires at <a href="https://www.dosist.com/" target="_blank" rel="noopener">dosist</a>,
+        where I grew the Southern California territory from zero, to one of the best selling brands in the state.
+      </p>
+      <p>
+        Before cannabis, I built my foundation in institutional brokerage and executive search —
+        industries that sharpened my ability to sell, build relationships, and navigate complex markets.
+      </p>
+      <p>
+        I'm driven by early opportunities, high-performing teams, and building companies with real
+        scale. I'm equally committed to mentoring the next generation of leaders in discipline,
+        communication, leadership, and financial literacy.
+      </p>
+      <p>
+        I grew up in Laguna Beach, competed for <a href="https://uclabruins.com/" target="_blank" rel="noopener">UCLA</a>,
+        played Premier League water polo with the New York Athletic Club, won gold with the
+        <a href="https://usawaterpolo.org/" target="_blank" rel="noopener">USA Water Polo</a> National
+        Cadet Team, and served as a Laguna Beach Ocean Lifeguard. Those experiences shaped my
+        operating style: disciplined, composed under pressure, and biased toward action.
+      </p>
+      <p>
+        I'm based in New York. Outside of work, you'll find me surfing big waves, training
+        Brazilian Jiu-Jitsu, or on a yoga mat.
+      </p>
+    </div>
+  </section>
+
+  <hr />
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p class="contact">
+      prestonhead at seagateco dot com
+    </p>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/prestonhead" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+
+</body>
+</html>
